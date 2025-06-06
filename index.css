@@ -1,0 +1,174 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f9f9f9;
+}
+
+.header{
+  background:#4caf50;
+  color: white;
+  padding: 1 rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cart-button{
+  background:white;
+  color: #4caf50;
+  border:none;
+  padding: 0.5rem 1 rem;
+  cursor: pointer;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.cart-button:hover{
+  background: #e8f5e9;
+}
+
+.product-list{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 1rem;
+  padding: 1 rem;
+}
+
+.product-card{
+  background: white;
+  border-radius: 6px;
+  box-shadow: 0 2 px 6px #ddd;
+  padding: 1 rem;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.product-card img{
+ max-width: 100%;
+ height: 140px;
+ object-fit: contain;
+ margin-bottom: 0.5rem;
+}
+
+.product-card h3{
+  font-size: 1 rem;
+  margin: 0.5 rem 0;
+  flex-grow: 1;
+}
+
+.product-card p{
+  margin: 0.3 rem 0 0.7rem;
+  font-weight: bold;
+}
+
+.product-card button{
+  background: #4caf50;
+  color: white;
+  border: none;
+  padding: 0.5 rem;
+  border-radius:  4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.product-card button:hover{
+  background: #388E3C;
+}
+
+.cart{
+  background: white;
+  padding: 1 rem;
+  max-width: 600px;
+  margin: 1 rem auto;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px #ddd;
+}
+
+.cart h2{
+  margin-top: 0;
+  margin-bottom: 1 rem;
+}
+
+.cart-item{
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+  padding:  0.5rem 0;
+}
+
+.cart-item img{
+  width:50px;
+  margin-right: 1 rem;
+  object-fit: contain;
+}
+
+.cart-item-controls button{
+  background: #4caf50;
+  color: white;
+  border: none;
+  padding: 0.2 rem 0.6 rem;
+  border-radius: 4 px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.cart-item-controls button:hover{
+  background: #388E3C;
+}
+
+.product-details{
+  max-width: 600px;
+  margin: 2 rem auto;
+  background: white;
+  padding: 1 rem;
+  border-radius: 6 px;
+  box-shadow: 0 2px 6px #ddd;
+  text-align: center;
+}
+
+.product-details img{
+  max-width: 300px;
+  height: 300px;
+  object-fit: contain;
+  margin-bottom: 1 rem;
+}
+
+.product-details h2{
+  margin: 0.5 rem 0;
+}
+
+.product-details .price{
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #4caf50;
+}
+
+.product-details button{
+  background: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 0.7 re 1.5 rem;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.product-details button:hover{
+  background: #388E3C;
+}
+
+.back-button{
+  background: transparent;
+  border: none;
+  color: #4caf50;
+  font-size: 1.2 rem;
+  cursor: pointer;
+  margin-bottom: 1 rem;
+}
+
